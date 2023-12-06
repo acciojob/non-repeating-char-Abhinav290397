@@ -13,6 +13,7 @@ function firstNonRepeatedChar(str) {
 	for(let i=0;i<n;i++){
 		if(Obj[str[i]] === 1)return str[i];
 	}
+	return null;
 	
 }
 const input = prompt("Enter a string");
